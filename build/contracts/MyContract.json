@@ -742,7 +742,7 @@
   "sourceMap": "85:257:0:-:0;;;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "85:257:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;259:80;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;164:85;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;259:80;324:7;313:8;:18;;;;259:80;:::o;164:85::-;206:7;233:8;;226:15;;164:85;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:329::-;749:6;798:2;786:9;777:7;773:23;769:32;766:119;;;804:79;;:::i;:::-;766:119;924:1;949:53;994:7;985:6;974:9;970:22;949:53;:::i;:::-;939:63;;895:117;690:329;;;;:::o;1025:118::-;1112:24;1130:5;1112:24;:::i;:::-;1107:3;1100:37;1025:118;;:::o;1149:222::-;1242:4;1280:2;1269:9;1265:18;1257:26;;1293:71;1361:1;1350:9;1346:17;1337:6;1293:71;:::i;:::-;1149:222;;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n//creating smart contract\r\ncontract MyContract {\r\n    uint256 private myNumber;\r\n//defining function\r\n    function getNumber() public view returns (uint256) {\r\n        return myNumber;\r\n    }\r\n  \r\n    function setNumber(uint256 _number) public {\r\n        myNumber = _number;\r\n    }\r\n}",
-  "sourcePath": "C:\\Users\\Bobby\\Desktop\\W3JS-test1\\contracts\\MyContract.sol",
+  "sourcePath": "c:\\Users\\Bobby\\Desktop\\W3JS-test1\\contracts\\MyContract.sol",
   "ast": {
     "absolutePath": "project:/contracts/MyContract.sol",
     "exportedSymbols": {
@@ -1006,7 +1006,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.13",
-  "updatedAt": "2023-04-17T21:28:27.425Z",
+  "updatedAt": "2023-04-18T16:17:30.090Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
